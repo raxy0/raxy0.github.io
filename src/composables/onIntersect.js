@@ -5,7 +5,7 @@
  * @param  {Object} options        Intersection Observer API options
  * @return {type} Ref<boolean>
  */
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted } from './vue';
 
 export const onIntersect = (elementToWatch, once = true, options = { threshold: 0.15 }) => {
     // toggleable visibility
